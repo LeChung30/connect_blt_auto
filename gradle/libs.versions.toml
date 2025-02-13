@@ -9,6 +9,12 @@ activity = "1.9.3"
 constraintlayout = "2.2.0"
 annotationJvm = "1.9.1"
 identityJvm = "202411.1"
+supportAnnotations = "28.0.0"
+gamesActivity = "3.0.5"
+junitJunit = "4.12"
+junitJupiter = "5.8.1"
+monitor = "1.7.2"
+testng = "6.9.6"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -20,6 +26,12 @@ activity = { group = "androidx.activity", name = "activity", version.ref = "acti
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 annotation-jvm = { group = "androidx.annotation", name = "annotation-jvm", version.ref = "annotationJvm" }
 identity-jvm = { group = "com.android.identity", name = "identity-jvm", version.ref = "identityJvm" }
+support-annotations = { group = "com.android.support", name = "support-annotations", version.ref = "supportAnnotations" }
+games-activity = { group = "androidx.games", name = "games-activity", version.ref = "gamesActivity" }
+junit-junit = { group = "junit", name = "junit", version.ref = "junitJunit" }
+junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version.ref = "junitJupiter" }
+monitor = { group = "androidx.test", name = "monitor", version.ref = "monitor" }
+testng = { group = "org.testng", name = "testng", version.ref = "testng" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
